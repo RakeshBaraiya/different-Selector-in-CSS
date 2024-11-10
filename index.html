@@ -26,7 +26,7 @@
                 background:aqua;
 
              }
-             /* 2. CSS Id Selector symbol.#
+             /* 3. CSS Id Selector symbol.#
             element.class {
              property:valu;
             }
@@ -37,6 +37,17 @@
                 height:200px;
                 background:purple;
              }
+             /* 4.CSS Attribute selector symbol (anchor a)
+            element=[name="value"]{
+             property:valu;
+            }
+             */
+             a[href="http://oklabs.in"]{
+                display:block;
+                width:200px;
+                height:200px;
+                background:lavender;
+             }
 
         </style>
     </head>
@@ -44,5 +55,6 @@
         <div> element selector </div>
         <span id="a1">CSS Id Selector # </span>
         <span class="b1">CSS Class Selector</span>
+        <a href="http://oklabs.in">CSS Attribute Selector</a>
     </body>
 </html>

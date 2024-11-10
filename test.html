@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title> CSS selector</title>
+        <style>
+            div{
+                width:200px;
+                height:200px;
+                background:red;
+            }
+            span#a1{
+                display: block;
+                width:200px;
+                height:200px;
+                background:green;
+            }
+            span.b1{
+                display:block;
+                width:200px;
+                height:200px;
+                background:purple;
+            }
+            a[href="http://www.google.com"]{
+                display:block;
+                width:200px;
+                height:200px;
+                background:lavender;
+            }
+        </style>
+    </head>
+    <body>
+        <div>CSS Element Selector</div>
+        <span id="a1">CSS Id Selector</span>
+        <span class="b1">CSS Class Selector</span>
+        <a href="http://www.google.com">CSS Attribute Selector</a>
+    </body>
+</html>
